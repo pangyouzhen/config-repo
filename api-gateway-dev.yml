@@ -7,6 +7,6 @@ zuul:
     myProduct:
         product: /myProduct/**
         #serviceId: product
-        url: http://10.21.239.4:8083
+        url: http://127.0.0.1:8081
   ignored-patterns:
       - /**/product/listForOrder
